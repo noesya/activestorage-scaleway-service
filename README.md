@@ -1,5 +1,7 @@
 # ActiveStorage::Service::ScalewayService
 
+[![Gem Version](https://badge.fury.io/rb/activestorage-scaleway-service.svg)](https://badge.fury.io/rb/activestorage-scaleway-service)
+
 With v5.2, Rails introduces ActiveStorage, to facilitate uploading files to cloud services and attaching those files to ActiveRecord objects. Out of the box, it comes with implementations for cloud storage services; Amazon S3, Google Cloud Storage, and Microsoft Azure Storage; with an extendible adapter for adding support for other storage services.
 
 Even though Scaleway Object Storage is compatible with the S3 service, this gem fixes some issues such as:
